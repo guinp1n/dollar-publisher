@@ -43,7 +43,7 @@ dependencies {
 /* ******************** debugging ******************** */
 
 tasks.prepareHivemqHome {
-    hivemqHomeDirectory.set(file("/Users/dsamkova/hivemq/hivemq-4.15.0"))
+    hivemqHomeDirectory.set(file("~/hivemq/hivemq-4.15.0"))
 }
 
 tasks.runHivemqWithExtension {
