@@ -1,6 +1,6 @@
 = HiveMQ 4 Extension
 
-Every minute publishes a message to topic $events/are/here.
+Every minute publishes a message to topic '$events/are/here'.
 
 == Installation
 
