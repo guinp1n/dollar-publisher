@@ -1,5 +1,7 @@
 = HiveMQ 4 Extension
 
+Every minute publishes a message to topic $events/are/here.
+
 == Installation
 
 . Clone this repository into a Java 11 Gradle project.
