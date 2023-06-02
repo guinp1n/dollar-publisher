@@ -4,14 +4,14 @@ plugins {
 }
 
 group = "com.hivemq.extensions"
-description = "HiveMQ 4 Hello World Enterprise Extension - a simple reference for all enterprise extension developers"
+description = "HiveMQ 4 $-publisher Extension"
 
 hivemqExtension {
-    name.set("Hello World Enterprise Extension")
-    author.set("HiveMQ")
+    name.set("Dollar Publisher Extension")
+    author.set("Dasha")
     priority.set(1000)
     startPriority.set(1000)
-    mainClass.set("$group.helloworld.HelloWorldEnterpriseMain")
+    mainClass.set("$group.dollarpublisher.DollarPublisherMain")
     sdkVersion.set("$version")
 }
 
@@ -43,7 +43,7 @@ dependencies {
 /* ******************** debugging ******************** */
 
 tasks.prepareHivemqHome {
-    hivemqHomeDirectory.set(file("/your/path/to/hivemq-<VERSION>"))
+    hivemqHomeDirectory.set(file("/Users/dsamkova/hivemq/hivemq-4.15.0"))
 }
 
 tasks.runHivemqWithExtension {

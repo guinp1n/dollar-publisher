@@ -1,4 +1,4 @@
-rootProject.name = "hivemq-hello-world-enterprise-extension"
+rootProject.name = "hivemq-dollar-publisher-extension"
 
 pluginManagement {
     repositories {
